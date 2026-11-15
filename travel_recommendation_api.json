@@ -1,0 +1,61 @@
+{
+  "countries": [
+    {
+      "id": 1,
+      "name": "Australia",
+      "cities": [
+        {
+          "name": "Sydney, Australia",
+          "imageUrl": "images/countries_1.svg",
+          "description": "Sydney Opera House and harbour, a vibrant mix of modern city life and beaches."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Japan",
+      "cities": [
+        {
+          "name": "Tokyo, Japan",
+          "imageUrl": "images/countries_2.svg",
+          "description": "A bustling metropolis blending ultramodern skyscrapers with traditional temples."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Brazil",
+      "cities": [
+        {
+          "name": "Rio de Janeiro, Brazil",
+          "imageUrl": "images/countries_3.svg",
+          "description": "Famous for Copacabana beach, Christ the Redeemer and carnival."
+        }
+      ]
+    }
+  ],
+  "temples": [
+    {
+      "name": "Angkor Wat, Cambodia",
+      "imageUrl": "images/temples_1.svg",
+      "description": "A UNESCO World Heritage site and the largest religious monument in the world."
+    },
+    {
+      "name": "Taj Mahal, India",
+      "imageUrl": "images/temples_2.svg",
+      "description": "An ivory-white marble mausoleum, a symbol of eternal love."
+    }
+  ],
+  "beaches": [
+    {
+      "name": "Bora Bora, French Polynesia",
+      "imageUrl": "images/beaches_1.svg",
+      "description": "Turquoise lagoons and overwater bungalows in a tropical paradise."
+    },
+    {
+      "name": "Copacabana Beach, Brazil",
+      "imageUrl": "images/beaches_2.svg",
+      "description": "A lively beach with golden sand and a famous promenade."
+    }
+  ]
+}

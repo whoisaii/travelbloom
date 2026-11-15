@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - TravelBloom</title>
+    <link rel="stylesheet" href="travel_recommendation.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo"><span>TravelBloom</span></div>
+        <ul class="nav-links">
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="about_us.html">About Us</a></li>
+            <li><a href="contact_us.html">Contact Us</a></li>
+        </ul>
+    </nav>
+    <main class="page">
+        <h1>CONTACT US</h1>
+        <p>Email: info@travelbloom.example &nbsp;|&nbsp; Phone: +7 700 000 00 00 &nbsp;|&nbsp; Astana, Kazakhstan</p>
+        <form id="contactForm" action="mailto:info@travelbloom.example" method="post" enctype="text/plain">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </main>
+</body>
+</html>
