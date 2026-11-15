@@ -1,33 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Travel Recommendation</title>
-    <link rel="stylesheet" href="travel_recommendation.css">
-</head>
-<body>
-    <nav class="navbar">
-        <div class="logo"><span>TravelBloom</span></div>
-        <ul class="nav-links">
-            <li><a href="index.html">Главная</a></li>
-            <li><a href="about_us.html">About Us</a></li>
-            <li><a href="contact_us.html">Contact Us</a></li>
-        </ul>
-        <div class="search-container">
-            <input type="text" id="conditionInput" placeholder="Enter a destination or keyword">
-            <button id="btnSearch">Search</button>
-            <button id="btnClear">Clear</button>
-        </div>
-    </nav>
-    <main>
-        <div class="hero-section">
-            <h1>EXPLORE DREAM DESTINATION</h1>
-            <p>It encourages exploration of unfamiliar territories, embracing diverse cultures and landscapes, while pursuing the desired destination that captivates the heart and ignites a sense of wonder.</p>
-            <button class="book-btn">BOOK NOW</button>
-        </div>
-        <div id="results" class="results"></div>
-    </main>
-    <script src="travel_recommendation.js"></script>
-</body>
-</html>
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Discover beaches, temples and countries with TravelBloom."><title>Find your next somewhere · TravelBloom</title><link rel="stylesheet" href="travel_recommendation.css"></head><body><nav class="navbar" aria-label="Main navigation">
+<a class="logo" href="index.html"><span class="brand-icon">✦</span> TravelBloom<span class="brand-dot">.</span></a>
+<ul class="nav-links"><li><a href="index.html">Главная</a></li><li><a href="about_us.html">About Us</a></li><li><a href="contact_us.html">Contact Us</a></li></ul>
+<form class="search-container" id="searchForm" role="search"><label class="sr-only" for="conditionInput">Search destinations</label><input type="search" id="conditionInput" placeholder="Try beach, temple or country" autocomplete="off"><button type="submit" id="btnSearch">Search</button><button type="button" id="btnClear" class="clear">Clear</button></form>
+</nav><main><section class="hero"><div class="hero-copy"><p class="eyebrow">THE WORLD IS WAITING</p><h1>Find your next<br><em>somewhere.</em></h1><p class="intro">Quiet shores, timeless temples, unforgettable cities. Discover a destination that feels like you — and let curiosity lead the way.</p><div class="chips"><button data-query="beach">↗ Beaches</button><button data-query="temple">↗ Temples</button><button data-query="country">↗ Countries</button></div></div><div class="hero-photo" role="img" aria-label="Bora Bora's turquoise lagoon"><span>YOUR NEXT CHAPTER<br><strong>Starts with a little wonder.</strong></span></div></section><section class="discover" aria-labelledby="resultsTitle"><div class="section-heading"><div><p class="eyebrow">PLACES WORTH THE JOURNEY</p><h2 id="resultsTitle">A world to discover</h2></div><p id="resultCount" aria-live="polite">Choose a category or search above.</p></div><div id="results" class="results" aria-live="polite"><div class="empty"><span>✦</span><h3>Where will curiosity take you?</h3><p>Search beach, temple, country, or a destination name.</p></div></div></section></main><footer>TravelBloom · A little curiosity. A world of possibilities. <a href="image_credits.html">Image credits</a></footer><script src="travel_recommendation.js"></script></body></html>

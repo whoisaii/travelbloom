@@ -6,7 +6,7 @@
       "cities": [
         {
           "name": "Sydney, Australia",
-          "imageUrl": "images/countries_1.svg",
+          "imageUrl": "images/country-sydney.jpg",
           "description": "Sydney Opera House and harbour, a vibrant mix of modern city life and beaches."
         }
       ]
@@ -17,7 +17,7 @@
       "cities": [
         {
           "name": "Tokyo, Japan",
-          "imageUrl": "images/countries_2.svg",
+          "imageUrl": "images/country-tokyo.jpg",
           "description": "A bustling metropolis blending ultramodern skyscrapers with traditional temples."
         }
       ]
@@ -28,7 +28,7 @@
       "cities": [
         {
           "name": "Rio de Janeiro, Brazil",
-          "imageUrl": "images/countries_3.svg",
+          "imageUrl": "images/country-rio.jpg",
           "description": "Famous for Copacabana beach, Christ the Redeemer and carnival."
         }
       ]
@@ -37,24 +37,24 @@
   "temples": [
     {
       "name": "Angkor Wat, Cambodia",
-      "imageUrl": "images/temples_1.svg",
-      "description": "A UNESCO World Heritage site and the largest religious monument in the world."
+      "imageUrl": "images/temple-angkor.jpg",
+      "description": "Explore the Khmer temple complex, its intricate stone carvings and lotus-like towers."
     },
     {
-      "name": "Taj Mahal, India",
-      "imageUrl": "images/temples_2.svg",
-      "description": "An ivory-white marble mausoleum, a symbol of eternal love."
+      "name": "Kinkaku-ji, Kyoto, Japan",
+      "imageUrl": "images/temple-kyoto.jpg",
+      "description": "Discover Kyoto’s Golden Pavilion, a Zen Buddhist temple beside a tranquil reflecting pond."
     }
   ],
   "beaches": [
     {
       "name": "Bora Bora, French Polynesia",
-      "imageUrl": "images/beaches_1.svg",
+      "imageUrl": "images/beach-bora.jpg",
       "description": "Turquoise lagoons and overwater bungalows in a tropical paradise."
     },
     {
       "name": "Copacabana Beach, Brazil",
-      "imageUrl": "images/beaches_2.svg",
+      "imageUrl": "images/beach-copa.jpg",
       "description": "A lively beach with golden sand and a famous promenade."
     }
   ]
